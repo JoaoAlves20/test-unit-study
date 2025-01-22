@@ -1,4 +1,4 @@
-import assert from 'assert'
+import { deepEqual } from 'assert'
 import nock from 'nock'
 
 import { getPeople } from '../src/index.js'
@@ -38,6 +38,6 @@ describe('Star Wars', function() {
         const expected = [{ nome: 'R2-D2', peso: '96' }]
         const result = await getPeople('r2-d2')
 
-        assert.deepEqual(result, expected)
+        deepEqual(result, expected)
     })
 })
