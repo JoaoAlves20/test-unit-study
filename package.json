@@ -1,0 +1,23 @@
+{
+  "name": "test-unit-study",
+  "version": "1.0.0",
+  "description": "Aplicando teste unitário em uma API",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "mocha": "^11.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "nock": "^13.5.6"
+  }
+}
